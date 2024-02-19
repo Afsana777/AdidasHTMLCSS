@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    list-style: none;
+}
+body{
+    background: -webkit-linear-gradient(146deg, rgba(71,8,77,1) 11%, rgba(8,11,84,1) 29%);
+}
+header {
+    width: 1800px;
+    height: 900px;
+    background-color: indigo;
+    background-size: cover;
+    margin: 30px 0 30px 50px;
+    border-radius: 20px;
+}
+
+nav{
+    display: flex; 
+    justify-content: space-evenly; 
+  }
+
+ .logo{
+    margin: 30px ;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(122, 12, 117);
+  }
+   ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 150px;
+   }
+  
+  li{
+    color: rgb(160, 110, 157);
+    padding: 20px;
+    font-weight: 600;
+    margin: 20px;
+  }
+
+  .sifir{
+    margin: 40px 0 0 200px;
+    color: aliceblue;
+    background-color: indigo;
+    border: none;
+    font-weight: 600;
+   }
+    
+   .search{
+    margin: 30px;
+    padding: 10px;
+    background-color: rgba(181, 164, 196, 0.658);
+    border-radius: 50%;
+    color: aliceblue;
+   }
+
+   h1{
+    font-size: 3.5em;
+    color: rgb(156, 167, 177);
+    margin: 100px 0 20px 50px;
+    
+   }
+
+   p{
+    color: rgb(160, 110, 157);
+    margin: 40px 0 50px 50px;
+  
+   }
+
+   .bir{
+    width: 120px;
+    height: 25px;
+    background-color: indigo;
+    color: aliceblue;
+    border-radius: 30px;
+    border: 2px solid rgb(194, 30, 166);
+    margin: 0 0 0 50px;
+   }
+   .bir:hover{
+    background-color: rgb(194, 30, 166);
+   }
+
+   .iki{
+    width: 120px;
+    height: 25px;
+    background-color: indigo;
+    color: aliceblue;
+    border-radius: 30px ;
+    border: 2px solid rgb(194, 30, 166);
+   }
+   .iki:hover{
+    background-color: rgb(194, 30, 166);
+   }
+   .qarisiq{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+   }
+ 
+   img{
+    width: 700px;
+   }
+    
